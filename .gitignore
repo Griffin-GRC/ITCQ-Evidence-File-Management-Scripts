@@ -1,0 +1,107 @@
+# ============================================================
+# Evidence / working files
+# Prevent audit evidence or source documents from being
+# accidentally committed to the repository.
+# ============================================================
+
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.xlsm
+*.csv
+*.ppt
+*.pptx
+*.txt
+*.rtf
+
+# Images / screenshots
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.tif
+*.tiff
+*.bmp
+
+# Archives
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+# ============================================================
+# Output / temporary directories
+# ============================================================
+
+output/
+outputs/
+temp/
+tmp/
+evidence/
+Evidence/
+ITCQ Evidence/
+backup/
+backups/
+
+# ============================================================
+# PowerShell temporary/output files
+# ============================================================
+
+*.log
+*.tmp
+*.temp
+*.bak
+*.old
+
+# PowerShell transcript files
+PowerShell_transcript.*
+
+# ============================================================
+# Windows
+# ============================================================
+
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ============================================================
+# Visual Studio Code
+# ============================================================
+
+.vscode/
+
+# ============================================================
+# Visual Studio
+# ============================================================
+
+.vs/
+
+# ============================================================
+# JetBrains IDEs
+# ============================================================
+
+.idea/
+
+# ============================================================
+# macOS (in case repository is used cross-platform)
+# ============================================================
+
+.DS_Store
+
+# ============================================================
+# Environment / secrets
+# ============================================================
+
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*.p12
+credentials.*
+secrets.*
